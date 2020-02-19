@@ -1,8 +1,10 @@
+// swift-tools-version:5.1
+
 import PackageDescription
 
 let package = Package(
   name: "TrackKit",
   dependencies: [
-    .Package(url: "https://github.com/tadija/AEXML.git", majorVersion: 4, minor: 0)
+    .package(url: "https://github.com/tadija/AEXML.git", from: "4.5.0")
   ]
 )
